@@ -1,0 +1,50 @@
+body{
+  height: 100vh;
+  background-image: url("../img/HJ09086_1024x.jpg");
+}
+h1{
+  color: rgb(150, 0, 65);
+  text-align:center;
+  background-color:rgba(131, 112, 99, 0.81);
+  transition: 0.1s background-color;
+}
+h2{
+  color: rgb(0, 0, 0);
+}
+h3 {
+  font-size: 1em;
+}
+footer {
+  font-size: 0.9em;
+  background-color: grey;
+}
+p {
+  color: rgb(83, 5, 70);
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: rgba(115, 115, 115, 0.69);
+  border: 2px black solid;
+  padding: 2%;
+  margin: 10px;
+
+}
+
+nav {
+  display: flex;
+
+}
+nav a {
+  color: rgb(133, 0, 54);
+  text-decoration: none;
+  padding: 5px;
+  flex-grow: 1;
+  text-align: center;
+  transition: 0.1s background-color;
+  font-size: 1.4em;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+.Mainheading{
+  background-color:rgba(170, 144, 126, 0.81);
+}
